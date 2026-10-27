@@ -16,13 +16,12 @@ https://elliegu0523.github.io/TOONSTAR-TRAE-Hackathon/
 
 ---
 
-## 📖 网页版本介绍（V2.0 · Hackathon MVP）
+## 📖 网页版本介绍（Hackathon MVP）
 
 | 维度 | 说明 |
 |------|------|
-| 产品定位 | 从「追星周边设计工具」升级为「日常生活个人 IP 生成与文创设计平台」 |
+| 产品定位 | 日常生活个人 IP 生成与文创设计平台 |
 | 一句话 Demo | 上传照片 → 选风格 → 生成 A/B/C 个 IP → 应用到文创周边 → 编辑保存导出 |
-| UI 原则 | 保留奶油色背景、黄/蓝/粉/绿流程色、圆角卡片、顶部导航、进度条、编辑器结构，不做大改版 |
 | 视觉风格 | 只使用 Flat Toon / Paper Cut / Soft Toy / Retro Graphic，不使用二次元 / Anime 视觉 |
 | 技术目标 | 纯前端静态站，可直接在本地 / GitHub Pages / Netlify 运行 |
 
@@ -47,7 +46,7 @@ Home → Upload → Style → Create IP → Scene → Products → Base Preview 
 - **主体类型四选一**：Me / Pet / Object / Memory —— 日常万物皆可 IP 化
 - **图片上传**：点击或拖拽上传，本地即时预览（JPG / PNG / WEBP）
 - **IP DNA**：名称、关键词（最多 3 个）、主色、保留特征
-- **风格选择**：Flat Toon / Paper Cut / Soft Toy / Retro Graphic（4 个既有风格单选）
+- **风格选择**：Flat Toon / Paper Cut / Soft Toy / Retro Graphic（4 个风格单选）
 - **A/B/C 方案生成**：一次生成 3 个方案并可选中，后续页面始终复用同一 `selectedIP`
 - **场景选择**：Daily / Travel / Birthday / Cafe / Campus / Home + 自定义场景
 - **文创商品多选**：6 大分类、20+ 商品，分类切换不丢已选，支持一键推荐组合
@@ -98,8 +97,6 @@ TOONSTAR-TRAE-Hackathon/
 ├─ functions/
 │  └─ generate-ip.js          # Netlify Serverless 代理（API Key 环境变量）
 ├─ netlify.toml               # Netlify 构建配置
-├─ backup/
-│  └─ toonstar-v6-original.html  # 原始 ToonStar 前端备份
 └─ README.md
 ```
 
