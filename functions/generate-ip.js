@@ -1,5 +1,5 @@
 /* ============================================================
- * ToonStar V2.0 — functions/generate-ip.js
+ * ToonStar — functions/generate-ip.js
  * Netlify Serverless Function
  *   API Key 只存在于服务端环境变量，绝不下发到浏览器。
  *

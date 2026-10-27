@@ -1,5 +1,5 @@
 /* ============================================================
- * ToonStar V2.0 — ai.js
+ * ToonStar — ai.js
  * 统一生成入口 generateIP(photo, subjectType, style, dna)
  *   - 优先调用 serverless 函数（API Key 只存在于服务端环境变量）
  *   - 失败或 12 秒超时 → 自动 fallback 到本地 3 张 Demo 结果

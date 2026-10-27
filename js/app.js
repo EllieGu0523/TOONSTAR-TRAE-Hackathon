@@ -1,5 +1,5 @@
 /* ============================================================
- * ToonStar V2.0 — app.js
+ * ToonStar — app.js
  * 路由 + 各页渲染与交互 + 商品 Mockup
  * ============================================================ */
 
@@ -233,9 +233,9 @@ function runGenerateIP() {
     if (statusEl) statusEl.className = 'gen-status ' + status;
   }).then(res => {
     projectState.generatedOptions = res.urls.map((url, i) => ({ id: 'ABC'[i], url }));
-    // 若尚未选择，默认保持未选；打开旧项目时选中已有 selectedIP
+    // 若尚未选择，默认保持未选；打开已保存项目时选中已有 selectedIP
     if (!projectState.selectedIP && res.urls.length) {
-      // 不自动选中，让评委主动选；但保留默认 A 便于流畅演示
+      // 不自动选中，保留默认 A 便于流程顺畅
       projectState.selectedIP = res.urls[0];
     }
     saveRecent();
